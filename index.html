@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <h1>Check your BMI</h1>
+      <p>Enter your weight and height below to check your BMI results</p>
+
+      <form id="bmiForm">
+        <label for="weight">Put your weight in here (KG)</label><br />
+        <input
+          type="number"
+          id="weight"
+          required
+          placeholder="60" /><br /><br />
+
+        <label for="height">And your height in here (CM)</label><br />
+        <input
+          type="number"
+          id="height"
+          required
+          placeholder="167" /><br /><br />
+
+        <input type="submit" value="Calculate BMI" />
+      </form>
+
+      <div id="result">
+        <!-- Hasil BMI akan ditampilkan di sini -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

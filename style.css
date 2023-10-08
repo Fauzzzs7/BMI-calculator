@@ -1,0 +1,47 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+  background: linear-gradient(to left, #8580e4, #b8e0cf, #00d4ff);
+}
+input[type="submit"] {
+  width: 50%;
+  background-color: #7300f6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(190, 148, 241);
+}
+form {
+  width: 100%;
+  margin-left: 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+div {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+#result {
+  float: left;
+  text-align: center;
+  margin-left: 0;
+  padding: 0;
+}
